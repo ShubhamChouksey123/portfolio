@@ -1,0 +1,16 @@
+# Portfolio Website : Shubham Chouksey Configuration   
+
+
+############################# General Settings ###############################################################################################################
+
+
+# server:
+#   domain: https://shubhamchouksey123.github.io/portfolio/
+
+server:
+  domain: ABC
+
+
+contact-form:
+  id: https://app.fabform.io/setup/CDGAAo6 
+  endpoint : https://app.fabform.io/setup/CDGAAo6 
