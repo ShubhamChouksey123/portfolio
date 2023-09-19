@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: Arial;
+  /* font-family: Arial; */
+  font-family: "Open Sans", sans-serif;
 }
 
 .header {
@@ -8,7 +9,7 @@ body {
   padding: 32px;
 }
 
-.row {
+.row1 {
   display: -ms-flexbox;
   /* IE10 */
   display: flex;
@@ -19,7 +20,7 @@ body {
 }
 
 /* Create four equal columns that sits next to each other */
-.column {
+.column1 {
   -ms-flex: 25%;
   /* IE10 */
   flex: 25%;
@@ -27,7 +28,7 @@ body {
   padding: 0 4px;
 }
 
-.column img {
+.column1 img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
@@ -35,7 +36,7 @@ body {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-  .column {
+  .column1 {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
@@ -44,7 +45,7 @@ body {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
+  .column1 {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
@@ -218,4 +219,11 @@ body {
   font-weight: 700;
   color: #050d18;
   margin-left: 60px;
+}
+
+.box-shadow-new {
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
