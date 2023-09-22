@@ -1,4 +1,13 @@
-* {
+/**
+ * Style Sheet 
+* @author: Shubham Chouksey
+*/
+
+/**
+* Responsive 2D Image Grid
+* reference : https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+*/
+l̥ * {
   box-sizing: border-box;
 }
 
@@ -225,9 +234,22 @@ body {
   margin-left: 60px;
 }
 
+/* Style for the contact form page  */
 .box-shadow-new {
   width: 100%;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+
+
+/* Style for the using the default system font  */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'),
+    url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+  font-display: swap;
 }
