@@ -15,7 +15,7 @@ Welcome to my portfolio website repository! This website is a digital canvas tha
 
 ## Getting Started
 
-To explore my portfolio website, simply visit [shubham-chouksey.com](https://shubham-chouksey.com/). You'll find a user-friendly interface to navigate through my projects, experiences, and contact details.
+To explore my portfolio website, simply visit [Visit My website!](https://shubhamchouksey123.github.io/portfolio/). You'll find a user-friendly interface to navigate through my projects, experiences, and contact details.
 
 ## Connect and Collaborate
 

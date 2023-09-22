@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
           // lazyImage.src = lazyImage.dataset.src;
 
           lazyImage.src = getHighestResImg(lazyImage);
-          console.log("src : " + lazyImage.src);
+          // console.log("src : " + lazyImage.src);
 
           // lazyImage.srcset = lazyImage.dataset.srcset;
           lazyImage.classList.remove("lazy-load-image");
